@@ -1,1 +1,9 @@
 # Erev_Roth_1998
+
+This paper explores the possibility that a simple reinforcement learning model can be used to predict, as well as explain, observed behavior on a broad range of games, without fitting parameters to each game. 
+
+However, an interesting setting is that although subjects were run in pairs but they did not know that they were playing a game (they were required to predict which of two lights would turn on and the probability of a "correct" response was determined by the game payoff matrix), and the game is a description of the reinforcement structure.
+
+Or in other words, the model of players as adaptive learners interacts with the model of the game (the strategy sets of the players, and the payoff structure) through the players' initial propensities to play each of their strategies. Unlike in equilibrium models, the strategic environment faced by any player, and what kind of feedback he gets from his choices, depends on what the other players are doing, particularly during the critical early periods when learning is fast.
+
+However this kind of setting does have realistic meaning. In many-if not most naturally occurring markets and games, players will not know the full details of the game. They are unlikely to know in detail what all other players are doing, and even less likely to be able to observe all other players' payoffs. The reason that traditional game theory focuses so much attention on the special case when players have complete information about these things is that equilibrium predictions are easier to motivate and derive in the complete information case, and often have little empirical content in the incomplete information case. But the reinforcement learning models we consider are well suited to modeling learning in quite general informational environments.
